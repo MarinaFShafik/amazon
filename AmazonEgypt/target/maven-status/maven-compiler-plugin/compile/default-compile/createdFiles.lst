@@ -1,0 +1,7 @@
+base\TestBase.class
+pages\VideoGamesPage.class
+pages\LoginPage.class
+pages\AddToCartPage.class
+pages\HomePage.class
+base\ApiTestBase.class
+base\PageBase.class
