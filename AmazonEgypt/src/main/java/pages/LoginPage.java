@@ -30,12 +30,13 @@ public class LoginPage extends PageBase{
 
 	public void myAccountLoginClick()
 	{
-        wait.until(ExpectedConditions.visibilityOfElementLocated(emailInput)).sendKeys("01200802273");
+    // Enter email/mobile
+		wait.until(ExpectedConditions.visibilityOfElementLocated(emailInput)).sendKeys("xxxxxx");// please add your credentials here
 		click(continueBtn);
 
 
-        // Enter password
-        wait.until(ExpectedConditions.visibilityOfElementLocated(passwordTXT)).sendKeys("Marina@12");
+   // Enter password
+        wait.until(ExpectedConditions.visibilityOfElementLocated(passwordTXT)).sendKeys("xxxxxx");// please add your credentials here
         driver.findElement(submitBtn).click();
 
         // Validate if sign-in was successful
